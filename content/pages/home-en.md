@@ -51,7 +51,7 @@ aboutUs:
         image: /static/img/ribbon.svg
         alt: About us image
 services:
-  title: Mes teikiamae šias paslaugas
+  title: We offer these services
   background:
     image: /static/img/home-services.png
     alt: Services background

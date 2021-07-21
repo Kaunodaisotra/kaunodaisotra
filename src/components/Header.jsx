@@ -15,7 +15,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const NAVIGATION_LINKS_EN = [
-	{ to: '#pradzia', title: 'Start' },
+	{ to: '#pradzia', title: 'Home' },
 	{ to: '#apie-mus', title: 'About us' },
 	{ to: '#paslaugos', title: 'Services' },
 	{ to: '#transportavimas', title: 'Transportation' },
@@ -33,7 +33,7 @@ export const NAVIGATION_LINKS_OUTSIDE_HOMEPAGE = [
 ];
 
 export const NAVIGATION_LINKS_OUTSIDE_HOMEPAGE_EN = [
-	{ to: '/en', title: 'Start' },
+	{ to: '/en', title: 'Home' },
 	{ to: '/en/#apie-mus', title: 'About us' },
 	{ to: '/en/#paslaugos', title: 'Services' },
 	{ to: '/en/#transportavimas', title: 'Transportation' },
