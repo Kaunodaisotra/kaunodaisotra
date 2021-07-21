@@ -33,26 +33,18 @@ const Layout = ({
 				<html lang="en" />
 				<title>{title}</title>
 				<meta name="description" content={description} />
+				<link rel="icon" href={`${withPrefix('/')}img/favicon-32x32.png`} sizes="32x32" />
+				<link rel="icon" href={`${withPrefix('/')}img/favicon-57x57.png`} sizes="57x57" />
+				<link rel="icon" href={`${withPrefix('/')}img/favicon-76x76.png`} sizes="76x76" />
+				<link rel="icon" href={`${withPrefix('/')}img/favicon-96x96.png`} sizes="96x96" />
+				<link rel="icon" href={`${withPrefix('/')}img/favicon-128x128.png`} sizes="128x128" />
+				<link rel="icon" href={`${withPrefix('/')}img/favicon-192x192.png`} sizes="192x192" />
+				<link rel="icon" hhref={`${withPrefix('/')}img/favicon-228x228.png`} sizes="228x228" />
 
-				<link
-					rel="apple-touch-icon"
-					sizes="180x180"
-					href={`${withPrefix('/')}img/logo.svg`}
-				/>
-
-				<link
-					rel="icon"
-					type="image/png"
-					href={`${withPrefix('/')}img/favicon-32x32.ico`}
-					sizes="32x32"
-				/>
-
-				<link
-					rel="icon"
-					type="image/png"
-					href={`${withPrefix('/')}img/favicon.ico`}
-					sizes="16x16"
-				/>
+				<link rel="shortcut icon" href={`${withPrefix('/')}img/favicon-196x196.png`} sizes="196x196" />
+				<link rel="apple-touch-icon" href={`${withPrefix('/')}img/favicon-120x120.png`} sizes="120x120" />
+				<link rel="apple-touch-icon" href={`${withPrefix('/')}img/favicon-152x152.png`} sizes="152x152" />
+				<link rel="apple-touch-icon" href={`${withPrefix('/')}img/favicon-180x180.png`} sizes="180x180" />
 
 				<link
 					rel="mask-icon"
