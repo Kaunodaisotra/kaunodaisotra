@@ -30,5 +30,5 @@ infoSection:
     working with us"
 pageMetadata:
   title: Dangerous cargo transportation - Kauno Daisotra
-  description: These are specific loads that may contain: explosive, flammable materials and articles, flammable gases, toxic gases, flammable solids and liquids.
+  description: These are specific loads that may contain - explosive, flammable materials and articles, flammable gases, toxic gases, flammable solids and liquids.
 ---
