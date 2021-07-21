@@ -43,14 +43,14 @@ const Layout = ({
 				<link
 					rel="icon"
 					type="image/png"
-					href={`${withPrefix('/')}img/logo.svg`}
+					href={`${withPrefix('/')}img/favicon-32x32.ico`}
 					sizes="32x32"
 				/>
 
 				<link
 					rel="icon"
 					type="image/png"
-					href={`${withPrefix('/')}img/logo.svg`}
+					href={`${withPrefix('/')}img/favicon.ico`}
 					sizes="16x16"
 				/>
 
