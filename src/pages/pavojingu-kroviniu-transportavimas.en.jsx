@@ -15,6 +15,8 @@ const PavojinguKroviniuPage = ({ data }) => {
 		pageMetadata,
 	} = data.content.childMarkdownRemark.frontmatter;
 
+	console.log(data);
+
 	return (
 		<Layout pageMetadata={pageMetadata}>
 			<div className="section">
