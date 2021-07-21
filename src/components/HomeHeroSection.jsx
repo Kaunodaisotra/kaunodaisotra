@@ -20,15 +20,11 @@ const HomeHeroSection = ({ hero }) => {
 				<Button isAlwaysDesktopPadding title={hero.button.title} to={hero.button.to} />
 			</div>
 			<Splide options={{ arrow: false, autoplay: true, speed: 800 }}>
-				<SplideSlide>
-					<GatsbyImage className="home-hero-section__image" fluid={hero.background.image.childImageSharp.fluid} />
-				</SplideSlide>
-				<SplideSlide>
-					<GatsbyImage className="home-hero-section__image" fluid={hero.background.image.childImageSharp.fluid} />
-				</SplideSlide>
-				<SplideSlide>
-					<GatsbyImage className="home-hero-section__image" fluid={hero.background.image.childImageSharp.fluid} />
-				</SplideSlide>
+				{hero.backgrounds.map((background) => (
+					<SplideSlide>
+						<GatsbyImage className="home-hero-section__image" fluid={background.image.childImageSharp.fluid} />
+					</SplideSlide>
+				))}
 			</Splide>
 		</section>
 	);

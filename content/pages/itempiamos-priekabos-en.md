@@ -28,6 +28,6 @@ infoSection:
     by eight struts and twelve lashing straps. All this guarantees strength,
     safety and high standards when transporting cargo.
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Carriage of goods by tilt trailers or semi-trailers - Kauno Daisotra
+  description: Tilt trailers allow you to load the cargo as you like. Sometimes you have to use containers with open tops covered by a tarpaulin.
 ---

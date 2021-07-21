@@ -29,6 +29,6 @@ infoSection:
 
     Mes profesionaliai pasirūpinsime pavojingų krovinių transportavimu, tad Jums nereikės pergyventi ir sukti galvos, tiesiog pasitikėkite mumis ir pas mus dirbančiais profesionalais.
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Pavojingų krovinių transportavimas - Kauno Daisotra
+  description: Tai yra specifiniai kroviniai, kuriuose gali būti - sprogiosios, degios medžiagos ir gaminiai, degios dujos, toksiškos dujos, degiosios kietosios ir skystosios medžiagos.
 ---

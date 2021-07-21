@@ -4,7 +4,6 @@ import Layout from '@/components/Layout';
 import HomeContactUs from '@/components/HomeContactUs';
 import HeroSection from '@/components/HeroSection';
 import CommonServiceSection from '@/components/CommonServiceSection';
-import CommonServiceSectionSmall from '@/components/CommonServiceSectionSmall';
 
 const PavojinguKroviniuPage = ({ data }) => {
 	const {

@@ -14,7 +14,7 @@ const HomeContactUs = ({ contactUs = {} }) => (contactUs.background ? (
 
 			<div className="home-contact-us__text-container">
 				<h2
-					data-sal="flip-left"
+					data-sal="slide-left"
 					data-sal-delay="200"
 					data-sal-duration="1000"
 					className="home-contact-us__title text-uppercase text-left"
@@ -41,7 +41,7 @@ const HomeContactUs = ({ contactUs = {} }) => (contactUs.background ? (
 				</ul>
 				<p
 					className="body mb-40 text-left"
-					data-sal="flip-right"
+					data-sal="slide-right"
 					data-sal-delay="300"
 					data-sal-duration="1000"
 				>

@@ -61,7 +61,7 @@ export const PageQuery = graphql`
                             title
                             to
                         }
-                        background {
+                        backgrounds {
                             image {
                                 childImageSharp {
                                     fluid(maxWidth: 1980, quality: 90) {

@@ -31,6 +31,6 @@ infoSection:
     lies behind the words "ISO". We are happy to offer services that meet
     quality standards.
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: BDF Containers - Kauno Daisotra
+  description: BDF containers are a very convenient and fast way to load-unload cargo and transport it. As you know, BDF containers are very often used in the postal and parcel services sector.
 ---

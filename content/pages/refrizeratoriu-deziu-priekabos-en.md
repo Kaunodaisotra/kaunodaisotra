@@ -29,6 +29,6 @@ infoSection:
     quality it becomes worthless. We care about quality, speed and properly
     provided services, so don't be shy and ask us everything you care about.
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Refrigerator and box trailers - Kauno Daisotra
+  description: This is a great way to transport frozen produce, e.g. meat, fish, other frozen foods or chemicals requiring such temperatures.
 ---

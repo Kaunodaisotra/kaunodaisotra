@@ -29,6 +29,6 @@ infoSection:
     we will take care of the stress for you, just trust us and the professionals
     working with us"
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Dangerous cargo transportation - Kauno Daisotra
+  description: These are specific loads that may contain: explosive, flammable materials and articles, flammable gases, toxic gases, flammable solids and liquids.
 ---

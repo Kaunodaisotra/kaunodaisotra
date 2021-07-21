@@ -7,9 +7,13 @@ hero:
   button:
     title: Bendradarbiaukime
     to: "#kontaktai"
-  background:
-    image: /static/img/home-header.png
-    alt: Home header
+  backgrounds:
+    - image: /static/img/home-header.png
+      alt: ''
+    - image: /static/img/home-services.png
+      alt: ''
+    - image: /static/img/hero-about-us.png
+      alt: ''
 aboutUs:
   title: Apie mus
   subtitle: Mūsų ambicija - tvarus ir efektyvus ilgalaikis bendradarbiavimas
@@ -173,7 +177,7 @@ contactUs:
         image: /static/img/fax.svg
         alt: Faksas
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Kauno Daisotra - Transportavimo ir logistikos kompanija
+  description: Kauno Daisotra - Transportavimo ir logistikos sprendimais užsiimanti kompanija visoje geografinėje Europoje su daugiau nei 45 transporto priemonėmis bei didesne nei 100 žmonių komanda.
   image: /img/1.jpg
 ---

@@ -28,6 +28,6 @@ infoSection:
 
     Visa tai garantuoja tvirtumą, saugumą ir aukštus standartus, gabenant krovinį.
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Krovinių gabenimas tentinėmis priekabomis ir puspriekabėmis - Kauno Daisotra
+  description: Tentai suteikia galimybę pakrauti krovinį taip, kaip Jums patogu. Kartais tenka naudoti konteinerius atviru viršum, kuriuos uždengia tentas.
 ---

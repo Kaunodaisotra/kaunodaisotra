@@ -29,6 +29,6 @@ infoSection:
     standards: 20 feet (6.1 m), 40 (12.2 m), 45 (13.7 m, 48 (14.6 m), 53 (16.2
     m)."
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Cargo transportation by containers - Kauno Daisotra
+  description: Cargo transportation is an important part of the logistics process, regardless of what products or goods, and perhaps even chemical or flammable materials, are transported.
 ---

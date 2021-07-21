@@ -15,7 +15,7 @@ const HomeTransportationSection = ({ transportation }) => (
 		<Section className="home-transportation flex-all-center-column">
 			<h2
 				className="mb-24 home-transportation__text-container"
-				data-sal="flip-left"
+				data-sal="slide-left"
 				data-sal-delay="200"
 				data-sal-duration="1000"
 			>

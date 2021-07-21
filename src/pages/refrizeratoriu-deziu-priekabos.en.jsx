@@ -15,7 +15,6 @@ const DeziuPriekabosPage = ({ data }) => {
 		infoSection,
 		pageMetadata,
 	} = data.content.childMarkdownRemark.frontmatter;
-	console.log(contactUs);
 
 	return (
 		<Layout pageMetadata={pageMetadata}>

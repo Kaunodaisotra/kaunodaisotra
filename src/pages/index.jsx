@@ -19,6 +19,8 @@ const IndexPage = ({ data }) => {
 		contactUs,
 	} = data.content.childMarkdownRemark.frontmatter;
 
+	console.log(hero);
+
 	return (
 		<Layout pageMetadata={pageMetadata}>
 			<div className="section">
@@ -61,7 +63,7 @@ export const PageQuery = graphql`
                             title
                             to
                         }
-                        background {
+                        backgrounds {
                             image {
                                 childImageSharp {
                                     fluid(maxWidth: 1980, quality: 90) {

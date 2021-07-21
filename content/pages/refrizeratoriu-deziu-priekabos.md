@@ -28,6 +28,6 @@ infoSection:
 
     Refrižeratoriai ir dėžės padeda išsaugoti produktus, prekes, nepakeičiant jų savybių ar formos. Mes žinome, jog klientams svarbus krovinių gabenimas, tačiau tuo pačiu suprantame, jog be kokybės jis tampa bevertis. Mums rūpi kokybė, greitis ir tinkamai teikiamos paslaugos, todėl nesidrovėkite ir klauskite mūsų visko, kas Jums rūpi.
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: Refrižeratorių ir dėžių priekabos - Kauno Daisotra
+  description: Tai puikus būdas, kuomet norima gabenti šaldytą produkciją, pvz. mėsą, žuvį, kitus šaldytus maisto produktus arba tokios temperatūros reikalaujančias chemines medžiagas.
 ---

@@ -28,6 +28,6 @@ infoSection:
 
     Defektų, trūkumų tikrinimas ir šalinimas – tai tik dalis dalykų, kurie slepiasi po žodžių „ISO“. Džiaugiamės, galėdami siūlyti kokybės standartus atitinkančias paslaugas.
 pageMetadata:
-  title: Starter metadata title
-  description: Starter metadata description
+  title: BDF Konteineriai - Kauno Daisotra
+  description: BDF konteineriai – tai itin patogus ir greitas būdas pakrauti-iškrauti krovinį, jį transportuoti. Kaip žinia, itin dažnai BDF konteineriai naudojami pašto, siuntų paslaugų sektoriuje.
 ---
