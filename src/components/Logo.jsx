@@ -3,10 +3,9 @@ import cx from 'classnames';
 import LogoSvg from '../../static/img/logo.svg';
 import './Link.scss';
 import './Logo.scss';
-import { Link } from 'gatsby';
 
 const Logo = ({ className }) => (
-	<Link to="/">
+	<a href="/">
 		<img
 			src={LogoSvg}
 			alt="Kauno daistora"
@@ -15,7 +14,7 @@ const Logo = ({ className }) => (
 				logo: true,
 			})}
 		/>
-	</Link>
+	</a>
 );
 
 export default Logo;

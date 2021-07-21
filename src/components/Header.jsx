@@ -6,11 +6,11 @@ import './Header.scss';
 import HeaderMobileBurger from '@/components/HeaderMobileBurger';
 
 export const NAVIGATION_LINKS = [
-	{ to: '#pradzia', title: 'Pradzia' },
+	{ to: '#pradzia', title: 'Pradžia' },
 	{ to: '#apie-mus', title: 'Apie mus' },
 	{ to: '#paslaugos', title: 'Paslaugos' },
 	{ to: '#transportavimas', title: 'Transportavimas' },
-	{ to: '#kodel-mes', title: 'Kodel mes' },
+	{ to: '#kodel-mes', title: 'Kodėl mes?' },
 	{ to: '#kontaktai', title: 'Kontaktai' },
 ];
 
@@ -24,11 +24,11 @@ export const NAVIGATION_LINKS_EN = [
 ];
 
 export const NAVIGATION_LINKS_OUTSIDE_HOMEPAGE = [
-	{ to: '/', title: 'Pradzia' },
+	{ to: '/', title: 'Pradžia' },
 	{ to: '/#apie-mus', title: 'Apie mus' },
 	{ to: '/#paslaugos', title: 'Paslaugos' },
 	{ to: '/#transportavimas', title: 'Transportavimas' },
-	{ to: '/#kodel-mes', title: 'Kodel mes' },
+	{ to: '/#kodel-mes', title: 'Kodėl mes?' },
 	{ to: '/#kontaktai', title: 'Kontaktai' },
 ];
 

@@ -19,8 +19,12 @@ const Layout = ({
 		description,
 	} = pageMetadata;
 	const [isLoadingPage, setIsLoadingPage] = React.useState(true);
+		const isEnglishLanguage = window && window.location.pathname.split('/')[1] && window.location.pathname.split('/')[1] === 'en';
+		const sideNavTitles = isEnglishLanguage
+				? ['Home', 'About us', 'Services', 'Transportation', 'Whu us?', 'Contacts']
+				: ['Pradžia', 'Apie mus', 'Paslaugos', 'Transportavimas', 'Kodėl mes?', 'Kontaktai'];
 
-	React.useEffect(() => {
+		React.useEffect(() => {
 		// Update the document title using the browser API
 		setTimeout(() => {
 			setIsLoadingPage(false);
@@ -67,7 +71,7 @@ const Layout = ({
 			<ReactFullpage
 				navigation
 				anchors={['pradzia', 'apie-mus', 'paslaugos', 'transportavimas', 'kodel-mes', 'kontaktai']}
-				navigationTooltips={['Pradžia', 'Apie mus', 'Paslaugos', 'Transportavimas', 'Kodėl mes?', 'Kontaktai']}
+				navigationTooltips={sideNavTitles}
 				fixedElements="#header"
 				navigationPosition="left"
 				responsiveWidth={1024}
