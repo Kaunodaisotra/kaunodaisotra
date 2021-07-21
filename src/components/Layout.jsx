@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ReactFullpage from '@fullpage/react-fullpage';
 import FullPageLoader from '@/components/FullPageLoader';
+import { useLocation } from '@reach/router';
 
 console.error = () => {
 };
@@ -14,16 +15,14 @@ const Layout = ({
 	children,
 	pageMetadata,
 }) => {
-	if (typeof window === 'undefined') {
-		return <p>Server Render</p>;
-	}
+	const location = useLocation();
 
 	const {
 		title,
 		description,
 	} = pageMetadata;
 	const [isLoadingPage, setIsLoadingPage] = React.useState(true);
-	const isEnglishLanguage = window && window.location.pathname.split('/')[1] && window.location.pathname.split('/')[1] === 'en';
+	const isEnglishLanguage = location && location.pathname.split('/')[1] && location.pathname.split('/')[1] === 'en';
 	const sideNavTitles = isEnglishLanguage
 		? ['Home', 'About us', 'Services', 'Transportation', 'Whu us?', 'Contacts']
 		: ['Pradžia', 'Apie mus', 'Paslaugos', 'Transportavimas', 'Kodėl mes?', 'Kontaktai'];
