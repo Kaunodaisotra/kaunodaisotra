@@ -11,8 +11,8 @@ CMS.init({
 			repo: 'Kaunodaisotra/kaunodaisotra',
 			branch: 'main',
 		},
-		media_folder: '/img',
-		public_folder: '/img',
+		media_folder: 'static/img',
+		public_folder: 'static/img',
 		collections: [pages],
 	},
 });
