@@ -8,7 +8,7 @@ CMS.init({
 		load_config_file: false,
 		backend: {
 			name: 'git-gateway',
-			repo: 'matasmazeikaa/kauno-daisotra',
+			repo: 'Kaunodaisotra/kaunodaisotra',
 			branch: 'main',
 		},
 		media_folder: '/img',
