@@ -1,6 +1,6 @@
 ---
 hero:
-  title: "Transportavimas ir logistika: patogiai, lanksčiai, laiku"
+  title: "Transportavimas ir logistika: patogiai, lanksčiai, laik"
   description: "Individualūs sprendimai verslui, kuris ieško patikimo ir
     profesionalaus pervežimų bei sandėliavimo partnerio. Pasirūpinsime ne tik
     bazine paslauga, bet ir dokumentais, draudimu, suteiksime garantijas. "
@@ -9,11 +9,11 @@ hero:
     to: "#kontaktai"
   backgrounds:
     - image: /static/img/home-header.png
-      alt:
+      alt: null
     - image: /static/img/home-services.png
-      alt:
+      alt: null
     - image: /static/img/hero-about-us.png
-      alt:
+      alt: null
 aboutUs:
   title: Apie mus
   subtitle: Mūsų ambicija - tvarus ir efektyvus ilgalaikis bendradarbiavimas
@@ -178,6 +178,8 @@ contactUs:
         alt: Faksas
 pageMetadata:
   title: Kauno Daisotra - Transportavimo ir logistikos kompanija
-  description: Kauno Daisotra - Transportavimo ir logistikos sprendimais užsiimanti kompanija visoje geografinėje Europoje su daugiau nei 45 transporto priemonėmis bei didesne nei 100 žmonių komanda.
+  description: Kauno Daisotra - Transportavimo ir logistikos sprendimais
+    užsiimanti kompanija visoje geografinėje Europoje su daugiau nei 45
+    transporto priemonėmis bei didesne nei 100 žmonių komanda.
   image: /img/1.jpg
 ---
