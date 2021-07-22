@@ -14,10 +14,23 @@ const page = {
 			widget: 'object',
 			collapsed: true,
 			fields: [
-				{ label: 'Title', name: 'title', widget: 'string' },
-				{ label: 'Description', name: 'description', widget: 'string' },
+				{
+					label: 'Title',
+					name: 'title',
+					widget: 'string',
+				},
+				{
+					label: 'Description',
+					name: 'description',
+					widget: 'string',
+				},
 				button,
-				background(),
+				{
+					label: 'Background images',
+					name: 'backgrounds',
+					widget: 'list',
+					fields: [image()],
+				},
 			],
 		},
 		{
@@ -26,10 +39,21 @@ const page = {
 			widget: 'object',
 			collapsed: true,
 			fields: [
-				{ label: 'Title', name: 'title', widget: 'string' },
-				{ label: 'Subtitle', name: 'subtitle', widget: 'string' },
 				{
-					label: 'Description', name: 'description', widget: 'markdown', modes: ['rich_text'],
+					label: 'Title',
+					name: 'title',
+					widget: 'string',
+				},
+				{
+					label: 'Subtitle',
+					name: 'subtitle',
+					widget: 'string',
+				},
+				{
+					label: 'Description',
+					name: 'description',
+					widget: 'markdown',
+					modes: ['rich_text'],
 				},
 				image(),
 				background(),
@@ -37,7 +61,11 @@ const page = {
 					label: 'Information',
 					name: 'info',
 					widget: 'list',
-					fields: [{ label: 'Title', name: 'title', widget: 'string' }, image()],
+					fields: [{
+						label: 'Title',
+						name: 'title',
+						widget: 'string',
+					}, image()],
 				},
 			],
 		},
@@ -47,20 +75,36 @@ const page = {
 			widget: 'object',
 			collapsed: true,
 			fields: [
-				{ label: 'Title', name: 'title', widget: 'string' },
+				{
+					label: 'Title',
+					name: 'title',
+					widget: 'string',
+				},
 				background(),
 				{
 					label: 'Services',
 					name: 'services',
 					widget: 'list',
-					fields: [{ label: 'Title', name: 'title', widget: 'string' }, image(), button],
+					fields: [{
+						label: 'Title',
+						name: 'title',
+						widget: 'string',
+					}, image(), button],
 				},
 				{
 					label: 'Subsection',
 					name: 'subsection',
 					widget: 'object',
 					collapsed: true,
-					fields: [{ label: 'Title', name: 'title', widget: 'string' }, { label: 'Description', name: 'description', widget: 'string' }, background(), button],
+					fields: [{
+						label: 'Title',
+						name: 'title',
+						widget: 'string',
+					}, {
+						label: 'Description',
+						name: 'description',
+						widget: 'string',
+					}, background(), button],
 				},
 			],
 		},
@@ -70,8 +114,16 @@ const page = {
 			widget: 'object',
 			collapsed: true,
 			fields: [
-				{ label: 'Title', name: 'title', widget: 'string' },
-				{ label: 'Description', name: 'description', widget: 'string' },
+				{
+					label: 'Title',
+					name: 'title',
+					widget: 'string',
+				},
+				{
+					label: 'Description',
+					name: 'description',
+					widget: 'string',
+				},
 				button,
 				background(),
 			],
@@ -83,7 +135,11 @@ const page = {
 			widget: 'object',
 			collapsed: true,
 			fields: [
-				{ label: 'Title', name: 'title', widget: 'string' },
+				{
+					label: 'Title',
+					name: 'title',
+					widget: 'string',
+				},
 				{
 					label: 'Description',
 					name: 'description',
@@ -97,7 +153,11 @@ const page = {
 					name: 'info',
 					widget: 'list',
 					fields: [
-						{ label: 'Title', name: 'title', widget: 'string' },
+						{
+							label: 'Title',
+							name: 'title',
+							widget: 'string',
+						},
 						image(),
 						{
 							label: 'Description',
@@ -115,15 +175,31 @@ const page = {
 			widget: 'object',
 			collapsed: true,
 			fields: [
-				{ label: 'Title', name: 'title', widget: 'string' },
-				{ label: 'Description', name: 'description', widget: 'string' },
+				{
+					label: 'Title',
+					name: 'title',
+					widget: 'string',
+				},
+				{
+					label: 'Description',
+					name: 'description',
+					widget: 'string',
+				},
 				background(),
 				{
 					label: 'Info',
 					name: 'info',
 					widget: 'list',
 					collapsed: true,
-					fields: [{ label: 'Title', name: 'title', widget: 'string' }, { label: 'Description', name: 'description', widget: 'string' }, image()],
+					fields: [{
+						label: 'Title',
+						name: 'title',
+						widget: 'string',
+					}, {
+						label: 'Description',
+						name: 'description',
+						widget: 'string',
+					}, image()],
 				},
 			],
 		},

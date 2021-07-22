@@ -17,7 +17,12 @@ const page = {
 				{ label: 'Title', name: 'title', widget: 'string' },
 				{ label: 'Description', name: 'description', widget: 'string' },
 				button,
-				background(),
+				{
+					label: 'Background images',
+					name: 'backgrounds',
+					widget: 'list',
+					fields: [image()],
+				},
 			],
 		},
 		{
