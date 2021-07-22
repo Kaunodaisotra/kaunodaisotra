@@ -9,11 +9,11 @@ hero:
     to: "#kontaktai"
   backgrounds:
     - image: /static/img/home-header.png
-      alt: ''
+      alt:
     - image: /static/img/home-services.png
-      alt: ''
+      alt:
     - image: /static/img/hero-about-us.png
-      alt: ''
+      alt:
 aboutUs:
   title: Apie mus
   subtitle: Mūsų ambicija - tvarus ir efektyvus ilgalaikis bendradarbiavimas
