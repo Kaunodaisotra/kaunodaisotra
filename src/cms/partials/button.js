@@ -6,10 +6,10 @@ const button = {
 	required: true,
 	fields: [
 		{
-			label: 'Button text', name: 'title', widget: 'string', required: true,
+			label: 'Button text', name: 'title', widget: 'string',
 		},
 		{
-			label: 'Button link to', name: 'to', widget: 'string', required: true,
+			label: 'Button link to', name: 'to', widget: 'string',
 		},
 	],
 };
