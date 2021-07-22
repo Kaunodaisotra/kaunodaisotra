@@ -3,7 +3,6 @@ import cx from 'classnames';
 import './HeaderMobileBurger.scss';
 import Link from '@/components/Link';
 import { NAVIGATION_LINKS } from '@/components/Header';
-import GatsbyImage from 'gatsby-image';
 import backgroundImage from '../../static/img/home-transportation.png';
 
 const HeaderMobileBurger = () => {
