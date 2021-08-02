@@ -1,13 +1,11 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
-const NotFoundPage = () => (
-	<Layout pageMetadata={{ title: 'Not found', description: 'Not found' }}>
-		<div>
-			<h1>NOT FOUND</h1>
-			<p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-		</div>
-	</Layout>
-);
+export default () => {
+	if (typeof window === 'undefined') {
+		return <p>Server Render</p>;
+	}
 
-export default NotFoundPage;
+	window.location = '/';
+
+	return null;
+};

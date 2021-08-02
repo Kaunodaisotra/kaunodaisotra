@@ -13,7 +13,6 @@ const HeaderMobileBurger = () => {
 			<a
 				onClick={() => {
 					setMobileMenuOpen((prev) => !prev);
-					console.log('hello');
 				}}
 				className={cx({
 					menuButton: true,
