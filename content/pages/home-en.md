@@ -10,11 +10,11 @@ hero:
     to: "#kontaktai"
   backgrounds:
     - image: /static/img/home-header.png
-      alt: ''
+      alt: ""
     - image: /static/img/home-services.png
-      alt: ''
+      alt: ""
     - image: /static/img/hero-about-us.png
-      alt: ''
+      alt: ""
 aboutUs:
   title: About us
   subtitle: Our ambition - sustainable and effective long-term cooperation
@@ -158,7 +158,7 @@ contactUs:
     image: /static/img/circles-full.svg
     alt: Circles
   info:
-    - title: Adress
+    - title: Address
       description: |-
         Ateities pl. 30A, Kaunas LT
         52163, Lietuva
@@ -177,5 +177,7 @@ contactUs:
         alt: Faksas
 pageMetadata:
   title: Kauno Daisotra - Transportation and logistics company
-  description: Kauno Daisotra - Transportation and logistics solutions delivering company to whole geographical Europe with more than 45 trucks and more than 100 people team.
+  description: Kauno Daisotra - Transportation and logistics solutions delivering
+    company to whole geographical Europe with more than 45 trucks and more than
+    100 people team.
 ---
