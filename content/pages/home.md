@@ -124,7 +124,7 @@ whyUs:
     specializacijomis. Viena iš įmonės stiprybių – Jungtinės Karalystės rinka.
 
 
-    Mūsų parką sudaro virš 45 tentinių ir didžiatūrių transporto priemonių, o komandą daugiau nei 100 žmonių, todėl galite būti tikri – Jūsų užsakymą įgyvendinsime Jums patogiu būdu, reikiamu laiku bei užtikrinsime lanksčias bendradarbiavimo sąlygas.
+    Mūsų parką sudaro virš 200 tentinių ir didžiatūrių transporto priemonių, o komandą daugiau nei 500 žmonių, todėl galite būti tikri – Jūsų užsakymą įgyvendinsime Jums patogiu būdu, reikiamu laiku bei užtikrinsime lanksčias bendradarbiavimo sąlygas.
   image:
     image: /static/img/home-why-us.png
     alt: Why us
@@ -167,12 +167,12 @@ contactUs:
         image: /static/img/location.svg
         alt: Location
     - title: Telefonas
-      description: +370 37 457 474
+      description: +370 64 034 303
       image:
         image: /static/img/phone-call.svg
         alt: Telefonas
     - title: Faksas
-      description: +370 37 452 967
+      description: +370 37 391 300
       image:
         image: /static/img/fax.svg
         alt: Faksas
