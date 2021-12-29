@@ -176,6 +176,11 @@ contactUs:
       image:
         image: /static/img/fax.svg
         alt: Faksas
+    - title: El. paštas
+      description: sales@kaunodaisotra.lt
+      image:
+        image: static/img/box.svg
+        alt: el pastas
 pageMetadata:
   title: Kauno Daisotra - Transportavimo ir logistikos kompanija
   description: Kauno Daisotra - Transportavimo ir logistikos sprendimais
