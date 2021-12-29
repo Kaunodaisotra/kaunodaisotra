@@ -118,10 +118,10 @@ transportation:
     alt: Transportation
 whyUs:
   title: Why us?
-  description: Our fleet consists of over 45 tent and large vehicles, and the team
-    is formed with more than 100 people, so you can be sure - we will implement
-    your order in a convenient way, at the right time and ensure flexible
-    conditions of cooperation.
+  description: Our fleet consists of over 200 tent and large vehicles, and the
+    team is formed with more than 500 people, so you can be sure - we will
+    implement your order in a convenient way, at the right time and ensure
+    flexible conditions of cooperation.
   image:
     image: /static/img/home-why-us.png
     alt: Why us
