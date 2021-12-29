@@ -166,12 +166,12 @@ contactUs:
         image: /static/img/location.svg
         alt: Location
     - title: Phone
-      description: +370 37 457 474
+      description: +370 640 34 303
       image:
         image: /static/img/phone-call.svg
         alt: Telefonas
     - title: Fax
-      description: +370 37 452 967
+      description: +370 37 391 300
       image:
         image: /static/img/fax.svg
         alt: Faksas
