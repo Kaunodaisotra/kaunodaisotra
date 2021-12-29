@@ -155,7 +155,7 @@ whyUs:
         image: /static/img/box.svg
         alt: About us image
 contactUs:
-  title: Susisiekite su mumis
+  title: Susisiekite su mumi
   description: Mūsų teikiamos krovinių gabenimo paslaugos vertos Jūsų dėmesio
   background:
     image: /static/img/circles-full.svg
