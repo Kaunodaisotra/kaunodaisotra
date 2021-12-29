@@ -167,7 +167,7 @@ contactUs:
         image: /static/img/location.svg
         alt: Location
     - title: Telefonas
-      description: +370 64 034 303
+      description: +370 640 34 303
       image:
         image: /static/img/phone-call.svg
         alt: Telefonas
